@@ -91,6 +91,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Artificial.h" />
     <ClInclude Include="cwc\include\glApplication.h" />
     <ClInclude Include="cwc\include\glsl.h" />
     <ClInclude Include="cwc\include\glutwindow.h" />
@@ -105,8 +106,11 @@
     <ClInclude Include="glew\include\Gl\glxew.h" />
     <ClInclude Include="glew\include\Gl\wglew.h" />
     <ClInclude Include="glm.h" />
+    <ClInclude Include="Natural.h" />
+    <ClInclude Include="Objeto.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Artificial.cpp" />
     <ClCompile Include="cwc\source\glApplication.cpp" />
     <ClCompile Include="cwc\source\glsl.cpp" />
     <ClCompile Include="cwc\source\glutwindow.cpp" />
@@ -136,6 +140,8 @@
     <ClCompile Include="glew\source\glew.c" />
     <ClCompile Include="glm.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Natural.cpp" />
+    <ClCompile Include="Objeto.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="freeglut\source\freeglutdll.def" />

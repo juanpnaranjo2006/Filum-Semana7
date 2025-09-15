@@ -6,7 +6,7 @@
 #include <iostream>
 #include "glsl.h"
 #include "glm.h"
-#include <FreeImage.h> // Para Textura: Incluir librería
+#include <FreeImage.h> //*** Para Textura: Incluir librería
 #include <string>
 
 class Objeto
@@ -18,7 +18,7 @@ private:
 public:
 	Objeto(std::string& modelFileName, std::string& textureFileName);
 	Objeto(std::string& modelFileName);
-	void draw(GLMmodel modelos, int modelosPos, GLuint texid, int texidPos, GLfloat x, GLfloat y, GLfloat z, GLfloat scaleFactor);
+	void draw(GLMmodel** modelos, int modelosPos, GLuint* texid, int texidPos, GLfloat x, GLfloat y, GLfloat z, GLfloat scaleFactor);
 
 	std::string getModelFileName();
 	std::string getTextureFileName();

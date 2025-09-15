@@ -7,4 +7,3 @@ public:
 	Natural(std::string& modelFileName) : Objeto(modelFileName) {} //usa el mismo constructor de Objeto para ambos
 	void use();
 };
-
