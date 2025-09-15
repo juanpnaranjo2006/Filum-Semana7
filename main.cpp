@@ -113,8 +113,8 @@ public:
 		//timer010 = 0.09; //for screenshot!
 
 		glPushMatrix();
-		glTranslatef(0, 0, -10);
-		glRotatef(timer010 * 360, 0.5, 1.0f, 0.1f);
+		glTranslatef(0, 0, -20);
+		glRotatef(30, 0.5, 1.0f, 0.1f);
 
 
 		//Para objetos sin texturas
